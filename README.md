@@ -1,6 +1,14 @@
 # objdet-predictions-exchange-format
 Exchange format for predictions from object detection algorithms (JSON).
 
+## Installation
+
+You can install the library via `pip` (or `pip3`):
+
+```commandline
+pip install opex
+```
+
 ## JSON
 
 ```json
