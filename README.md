@@ -34,7 +34,12 @@ Exchange format for predictions from object detection algorithms (JSON).
 ```
 
 **Notes:**
-The following keys are optional: timestamp, meta, score 
+
+The following keys are optional: 
+
+* timestamp
+* meta
+* score 
 
 
 ## Reading/Writing
