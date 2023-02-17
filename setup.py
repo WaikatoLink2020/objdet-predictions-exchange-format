@@ -20,7 +20,7 @@ setup(
     install_requires=[
         "wai.json",
     ],
-    version="0.0.1",
+    version="0.0.2",
     author='Corey Sterling',
     author_email='corey.sterling@waikato.ac.nz',
 )
