@@ -1,5 +1,7 @@
+from typing import Dict
+
 from wai.json.object import OptionallyPresent, StrictJSONObject
-from wai.json.object.property import StringProperty, NumberProperty
+from wai.json.object.property import StringProperty, NumberProperty, MapProperty
 
 from ._BBox import BBox
 from ._Polygon import Polygon
