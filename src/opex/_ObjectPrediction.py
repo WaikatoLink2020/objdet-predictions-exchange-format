@@ -21,6 +21,12 @@ class ObjectPrediction(StrictJSONObject['ObjectPrediction']):
     # The polygon around the prediction
     polygon: Polygon = Polygon.as_property()
 
+    # Any meta-data
+    meta: OptionallyPresent[Dict[str, str]] = MapProperty(
+        value_property=StringProperty(),
+        optional=True
+    )
+
     def __str__(self):
         """
         Returns a short string representation of itself.

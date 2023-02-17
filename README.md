@@ -18,7 +18,25 @@ pip install opex
   "objects": [
     {
       "score": 1.0,
-      "label": "object",
+      "label": "person",
+      "bbox": {
+        "top": 100,
+        "left": 100,
+        "bottom": 150,
+        "right": 120
+      },
+      "polygon": {
+        "points": [
+          [100, 100],
+          [150, 100],
+          [150, 120],
+          [100, 120]
+        ]
+      }
+    },
+    {
+      "score": 0.95,
+      "label": "house",
       "bbox": {
         "top": 100,
         "left": 100,
@@ -28,9 +46,13 @@ pip install opex
       "polygon": {
         "points": [
           [100, 100],
+          [200, 100],
           [200, 200],
           [100, 200]
         ]
+      },
+      "meta": {
+        "price": "500k"
       }
     }
   ],
