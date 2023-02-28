@@ -1,6 +1,9 @@
 # objdet-predictions-exchange-format
 Exchange format for predictions from object detection algorithms (JSON).
 
+This library is written in Python. For a Java port, please see 
+[opex4j](https://github.com/waikato-datamining/opex4j).
+
 ## Installation
 
 You can install the library via `pip` (or `pip3`):
