@@ -36,4 +36,4 @@ class ObjectPrediction(StrictJSONObject['ObjectPrediction']):
         :return: the string representation
         :rtype: str
         """
-        return "score=%f, label=%s" % (self.score, self.label)
+        return "score=%s, label=%s" % (str(self.score), self.label)

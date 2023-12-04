@@ -34,4 +34,4 @@ class ObjectPredictions(StrictJSONObject['ObjectPredictions']):
         :return: the string representation
         :rtype: str
         """
-        return "timestamp=%s, id=%s, #objects=%d" % (self.timestamp, self.id, len(self.objects))
+        return "timestamp=%s, id=%s, #objects=%d" % (str(self.timestamp), self.id, len(self.objects))
